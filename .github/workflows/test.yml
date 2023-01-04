@@ -19,6 +19,8 @@ jobs:
         include:
           - { os: windows-latest, ruby: ucrt }
           - { os: windows-latest, ruby: mswin }
+          - { os: ubuntu-22.04, ruby: truffleruby-head }
+          - { os: ubuntu-20.04, ruby: truffleruby-head }
 
     steps:
       - name: repo checkout
